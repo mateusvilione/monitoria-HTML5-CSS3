@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula7</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    
+        <h2>HTML - 5 Forms</h2>
+            
+            <h4>Só é enviado os valores que estão na tag &lt;form&gt;</h4>
+                
+                <form>
+                    
+                <h4>Tag input para receber dados</h4>
+                <input>
+                    
+                <h4>Associar o texto a caixa</h4>
+                Nome: <input>
+                    
+                <h4>Usar a label para focar na caixa ao ser clicada</h4>
+                <label>
+                    Nome: <input>
+                </label>
+                    
+                <h3>Tipo do input</h3>
+                    
+                <h4>Texto</h4>
+                <label>
+                    Nome: <input type="text">
+                </label>
+                    
+                <h4>Nome para resgatar a informação via JavaScript</h4>
+                    
+                <label>
+                    Nome: <input type="text" name="nome">
+                </label>
+                    
+                <h4>Tamanho da caixa</h4>
+                    
+                <label>
+                    Nome: <input type="text" name="nome" size="40">
+                </label>
+                    
+                <h4>Tamanho máximo do texto digitado</h4>
+                    
+                <label>
+                    Nome: <input type="text" name="nome" size="40" maxlength="15">
+                </label>
+                    
+                <h4>Id para manipular a tag por JavaScript e/ou CSS</h4>
+                    
+                <h4>Manipulação por css</h4>
+                    
+                input#nome { width: 100px;}
+                    
+                <label>
+                    Nome: <input type="text" name="nome" size="40" maxlength="15" id="nome" style=" width: 500px; ">
+                </label>
+                    
+                <h4>Area de texto. name. id</h4>
+                    
+                <textarea name="comentarios" id="comentarios">
+                                        
+                </textarea>
+                    
+                <h4>Tamanho de linhas e colunas (Rows & cols)</h4>
+                
+                <textarea name="comentarios" id="comentarios" rows="15" cols="100">
+                                        
+                </textarea>
+                    
+                <h4>Caixa de seleção</h4>
+                
+                <select>
+                                    
+                </select>
+                
+                <h4>Opções da caixa de seleção</h4>
+    
+                <select>
+                    <option>Selecione...</option>
+                    <option>Item 1</option>
+                    <option>Item 2</option>
+                    <option>Item 3</option>
+                    <option>Item 4</option>
+                    <option>Item 5</option>
+                    <option>Item 6</option>
+                </select>
+    
+                <h4>Value para usar no Js para saber qual foi o item selecionado</h4>
+                
+                <select>
+                    <option value="">Selecione...</option>
+                    <option value="item1">Item 1</option>
+                    <option value="item2">Item 2</option>
+                    <option value="item3">Item 3</option>
+                    <option value="item4">Item 4</option>
+                    <option value="item5">Item 5</option>
+                    <option value="item6">Item 6</option>
+                </select>
+                
+                <h4>Selected marca valor default</h4>
+            
+                <select>
+                    <option value="">Selecione...</option>
+                    <option value="item1" selected>Item 1</option>
+                    <option value="item2">Item 2</option>
+                    <option value="item3">Item 3</option>
+                    <option value="item4">Item 4</option>
+                    <option value="item5">Item 5</option>
+                    <option value="item6">Item 6</option>
+                </select>
+                
+                
+                <h4>Quantidade de linhas exibidas</h4>
+                
+                <select size="4"> <!-- quatro linhas de exibição -->
+                    <option value="">Selecione...</option>
+                    <option value="item1" selected>Item 1</option>
+                    <option value="item2">Item 2</option>
+                    <option value="item3">Item 3</option>
+                    <option value="item4">Item 4</option>
+                    <option value="item5">Item 5</option>
+                    <option value="item6">Item 6</option>
+                </select>
+                
+                <h4>Seleção multipla. utilizar a tecla Ctrl</h4>
+            
+                <select size="4" multiple> <!-- multipla seleção -->
+                    <option value="">Selecione...</option>
+                    <option value="item1" selected>Item 1</option>
+                    <option value="item2">Item 2</option>
+                    <option value="item3">Item 3</option>
+                    <option value="item4">Item 4</option>
+                    <option value="item5">Item 5</option>
+                    <option value="item6">Item 6</option>
+                </select>
+                
+                <h4>Fieldset & Legend
+            
+                <fieldset>
+                    <legend>Legenda</legend>
+                </fieldset>
+                
+                <h4>Botões de rádio (radio buttons). name iguais e values diferentes. id diferentes</h4>
+            
+                <label>
+                    <input type="radio" name="valores" value="v1" id="valores-sim"> Sim
+                </label>
+                
+                <label>
+                    <input type="radio" name="valores" value="v2" id="valores-não"> Não
+                </label>
+                
+                <h4>Caixa de seleção (checkbox)</h4>
+            
+                <fieldset>
+                    <legend>Legenda</legend>
+                    <label>
+                        <input type="checkbox" name="valores" id="valores-1"> Item 1
+                    </label>
+                    <label>
+                        <input type="checkbox" name="valores" id="valores-2"> Item 2
+                    </label>
+                    <label>
+                        <input type="checkbox" name="valores" id="valores-3"> Item 3
+                    </label>
+                    <label>
+                        <input type="checkbox" name="valores" id="valores-4"> Item 4
+                    </label>
+                </fieldset>
+                
+                <h4>Enviar formulário</h4>
+            
+                <input type="submit" value="Enviar formulário">
+                
+                <h4>Reset limpa o form. mas pode dar problema pro usuario</h4>
+            
+                <input type="reset">
+                
+                <h3>Envio de form (GET)</h3>
+                
+                &lt;form method="get"&gt;
+                
+                <h3>Exemplo de URL</h3>
+                
+                    https://exemploDeUrl/PPSI-I/
+                    ?nome=oi&
+                    comentarios=oi&
+                    informes=informes-1&
+                    informes=informes-4
+                
+                <h3>Envio de form (POST) pegar dados (GET)</h3>
+                
+                <h4>GET</h4>
+                
+                <p>
+                    GET é um método do HTTP que foi projetado para recuperar informações do servidor. 
+                </p>
+                
+                &lt;form method="post"&gt;
+                
+                <h4>POST</h4>
+                
+                <p>
+                    Em computação. POST é um dos muitos métodos de requisição suportados pelo protocolo HTTP usado na World Wide Web.
+                    O método de requisição POST foi projetado para solicitar que o servidor web aceite os dados anexados no corpo da mensagem de requisição para armazenamento.
+                    Ele é normalmente usado quando se faz o upload de um arquivo ou envia-se um formulário web completo.
+                </p>
+                    &lt;form method="get"&gt;
+                
+                <h3>Action</h3>
+                
+                &lt;form method="post" action="script/form.php"&gt;
+    </form>
+</body>
+</html>
