@@ -66,4 +66,4 @@ td.th { /* td e th vao ser alterados*/
 
 ## Exemplo de tabela com Css
 
-![alt text](https://preview.c9users.io/mateusvilione/html/Monitoria/1Ciclo/Aula4/img/tabela&css.png "tabela com estilo css")
+![alt text](https://github.com/mateusvilione/monitoria-HTML5-CSS3/blob/master/Monitoria/1%C2%B0%20Ciclo/Aula4/img/tabela%26css.png "tabela com estilo css")

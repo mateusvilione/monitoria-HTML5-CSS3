@@ -156,15 +156,15 @@ A imagem vem acompanhada de dois atributos e dois valores.
     alt - Um texto alternativo é utilizado para substituir uma imagem. quando a imagem não puder ser vista e tambem é interpretados pelos leitores de tela.
 
 ```html
-<img src="https://preview.c9users.io/mateusvilione/html/Monitoria/1Ciclo/Aula1/img/HTML_Logo.png" alt="Logo do html5">
+<img src="https://github.com/mateusvilione/monitoria-HTML5-CSS3/blob/master/Monitoria/1%C2%B0%20Ciclo/Aula1/img/HTML_Logo.png" alt="Logo do html5">
 ```
 
 ### Exemplo - Imagem funcionando 
 <div>
-    <img src="https://preview.c9users.io/mateusvilione/html/Monitoria/1Ciclo/Aula1/img/HTML_Logo.png" alt="Logo do html5">
+    <img src="https://github.com/mateusvilione/monitoria-HTML5-CSS3/blob/master/Monitoria/1%C2%B0%20Ciclo/Aula1/img/HTML_Logo.png" alt="Logo do html5">
 </div>
 
 ### Exemplo - imagem não exibida
 <div>
-    <img src="https://preview.c9users.io/mateusvilione/html/Monitoria/1Ciclo/Aula1/img/HTML.png" alt="Logo do html5">
+    <img src="https://github.com/mateusvilione/monitoria-HTML5-CSS3/blob/master/Monitoria/1%C2%B0%20Ciclo/Aula1/img/HTML.png" alt="Logo do html5">
 </div>

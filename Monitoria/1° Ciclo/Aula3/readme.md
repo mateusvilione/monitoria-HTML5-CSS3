@@ -303,4 +303,4 @@ margin: 10px 20px; /* cima-baixo . direita-esquerda */
 
 ## Exemplo de Site com Css interno
 
-![alt text](https://preview.c9users.io/mateusvilione/html/Monitoria/1Ciclo/Aula3/img/pagina&css.png "site com css interno")
+![alt text](https://github.com/mateusvilione/monitoria-HTML5-CSS3/blob/master/Monitoria/1%C2%B0%20Ciclo/Aula3/img/pagina%26css.png "site com css interno")

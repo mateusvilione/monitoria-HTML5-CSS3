@@ -117,4 +117,4 @@
 
 ## Como funciona uma tabela
 
-![alt text](https://preview.c9users.io/mateusvilione/html/Monitoria/1Ciclo/Aula2/img/tabela_html.png "explicação da tabela")
+![alt text](https://github.com/mateusvilione/monitoria-HTML5-CSS3/blob/master/Monitoria/1%C2%B0%20Ciclo/Aula2/img/tabela_html.png "explicação da tabela")
